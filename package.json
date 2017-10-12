@@ -1,0 +1,21 @@
+{
+  "name": "node-d3-es",
+  "version": "1.0.0",
+  "description": "Node App Creating Visualizations using ElasticSearch",
+  "main": "server.js",
+  "author": "Eugene Kim",
+  "license": "ISC",
+  "scripts": {
+	"prestart": "browserify public/js/main.js > public/js/bundle.js"
+  },
+  "dependencies": {
+    "JSON": "^1.0.0",
+    "body-parser": "^1.18.2",
+    "bootstrap": "^3.3.7",
+    "d3": "^4.11.0",
+    "elasticsearch": "^13.3.1",
+    "express": "^4.16.2",
+    "method-override": "^2.3.10",
+    "papaparse": "^4.3.6"
+  }
+}
